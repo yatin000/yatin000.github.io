@@ -1,0 +1,193 @@
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    }
+
+*{
+    font-family: Google Sans;
+    /* background-color: olivedrab; */
+}
+body{
+    margin: 0;
+}
+h1 {
+    background-color: transparent;
+    font-family: Product Sans;
+}
+img{
+    background-color: transparent;
+}
+p{
+    background-color: transparent;
+}
+button{
+    padding: 10px 20px;
+    border: 0px;
+    background: inherit;
+    appearance: none;
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: #767675;
+}
+section{
+    display: block;
+}
+input{
+    background-color: inherit;
+    text-decoration: none;
+    outline: none;
+    appearance: auto;
+    border: none;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 48px;
+    /* background: aliceblue; */
+    margin: 0;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    border-bottom: solid 1px #d1d4e2;
+    
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 140px;
+    height: 45px;
+    justify-content: space-between;
+    background: inherit;
+
+}
+.menubar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    background: inherit;
+    position: static;
+    margin-left: 152px;
+    
+}
+.join{
+    display: inline-flex;
+    background-color: #5551FF;
+    border-radius: 5px;
+    text-align: justify;
+    padding-inline: 45px;
+    font-weight: bold;
+    color: white;
+}
+.mainPanel{
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.encompassOne{
+    margin-inline: auto;
+}
+.mainCenter{
+    display: flex;
+    align-self: center;
+}
+.mainTextOne{
+    font-size: 50px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 260px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 8px 0px; 
+    border: 1px solid #dadcdf;
+    border-radius: 4px;
+    background: transparent;
+}
+.inputboxnav{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.svg-container{
+    height: 40px;
+    display: flex;
+}
+.inputbox-1{
+    width: 156px;
+    color: #8b8e9c;
+    display: inline-flex;
+}
+.carticon{
+    display: flex;
+    color: #202022;
+    text-decoration: none;
+    padding: 15px 15px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    align-self: center;
+    margin-top: 7px;
+    margin-left: 0px;
+}
+.badge{
+    position: absolute;
+    top: 0mm;
+    right: -0.01mm;
+    margin-top: 5px;
+    margin-right: 4px;
+    padding: 2px 6px;
+    border-radius: 100%;
+    background: #34a853;
+    color: white;
+    font-size: 10px;
+}
+.divider{
+    display: flex;
+    align-self: center;
+    height: 24px;
+    width: 0px;
+    inline-size: 0px;
+    margin: 0px 0px;
+    border: 1px solid #dadcdf;
+}
+.panel-2{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: block;
+}
+.leftmaintext{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+.panl2{
+    margin-inline: auto;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 2;
+    padding-inline: 100px;
+    gap: 150px;
+}
+
